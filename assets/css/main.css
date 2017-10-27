@@ -1,0 +1,28 @@
+/* ========== GENERAL =========== */
+* {
+	box-sizing: border-box;
+}
+
+/* ========== TITLE =========== */
+.title-float {
+
+}
+
+
+/* ========== PARALLAX SCROLLING =========== */
+.parallax {
+	background-image:url("https://i.ytimg.com/vi/1Q4vc05OS9Y/maxresdefault.jpg");
+
+	height:500px;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.non-parallax {
+	height:250px;
+	width:100%;
+	background-color:white;
+}
